@@ -13,3 +13,5 @@ export default function Card(props) {
 }
 
 // initial commit
+// comment
+// hojas de estilos de principales componentes
