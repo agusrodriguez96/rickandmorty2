@@ -1,3 +1,8 @@
+import styles from "./Card.module.css"
+
+
+import styles from './Card.module.css'
+
 export default function Card(props) {
    return (
       <div>
@@ -15,3 +20,4 @@ export default function Card(props) {
 // initial commit
 // comment
 // hojas de estilos de principales componentes
+// importacion hoja de estilos a componentes
