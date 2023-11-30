@@ -1,0 +1,22 @@
+
+
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    width: 20%;
+}
+
+.container input {
+    border-radius: 5px;
+    height: 25px;
+    
+}
+
+.container button {
+    border-radius: 5px;
+    height: 25px;
+    background-color: darkblue;
+    color: white;
+    padding: 0 10 0 10px;
+}
