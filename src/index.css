@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://wallpapers.com/images/hd/cool-rick-and-morty-in-space-fy4wmmbnq0wpytut.jpg");
+  background-size: cover;
 }
 
 code {

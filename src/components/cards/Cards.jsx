@@ -1,10 +1,10 @@
 import Card from '../card/Card';
-
+import style from './Cards.module.css'
 
 export default function Cards(props) {
    const { characters } = props;
    return (
-      <div>
+      <div className={style.container}>
             {characters.map(character => (
                <Card
                key = {character.id}             // la key como identificador unico de cada card
