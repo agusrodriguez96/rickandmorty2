@@ -1,0 +1,44 @@
+
+.cardContainer {
+    border: 1px solid grey;
+    background-color: lightgrey;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+    
+}
+
+.image {
+    border-radius: 5px;
+    width: 230px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer button {
+    background-color: red;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+}
+
+.dataContainer {
+    text-align: center;
+    padding: 10px;
+}
+
+.dataContainer h2 {
+    margin: 2px;
+    font-size: 25px;
+    color: darkblue;
+}
+
+.dataContainer h3 {
+    margin: 2px;
+    font-size: 18px;
+    color: rgb(56, 54, 54);
+}
