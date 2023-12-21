@@ -25,6 +25,10 @@ function App() {
       });
    }
 
+
+   const onClose = (id) => {
+      setCharacters(characters.filter(char => char.id !== id))
+   }
    return (
       <div className='App'>
          <div>
@@ -32,7 +36,7 @@ function App() {
          </div>
          
          <div>
-         <Cards characters={characters} />
+         <Cards characters={characters} onClose={onClose} />
          </div>
         
       </div>
